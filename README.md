@@ -39,6 +39,6 @@ pip install -r requirements.txt
 pip install -r requirements.txt
 
 # Jalankan aplikasi Streamlit
-streamlit run dashboard.py
+streamlit run dashboard/dashboard.py
 
 ```
