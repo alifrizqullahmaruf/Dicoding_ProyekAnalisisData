@@ -169,3 +169,10 @@ else:
     baik pengguna kasual maupun pengguna terdaftar. Biasanya, pengguna kasual lebih dipengaruhi oleh suhu dan cuaca 
     yang lebih bersahabat dibandingkan dengan pengguna terdaftar yang cenderung lebih rutin.
     """)
+
+# URL yang ingin dituliskan ke dalam url.txt
+dashboard_url = "http://localhost:8501"  # Ganti dengan URL sebenarnya jika diperlukan
+
+# Menulis URL ke dalam url.txt
+with open("url.txt", "w") as file:
+    file.write(dashboard_url)
